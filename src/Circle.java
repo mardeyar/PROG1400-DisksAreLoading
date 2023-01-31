@@ -29,8 +29,11 @@ public class Circle {
     }
 
     //Method to get the area of the circle
-    protected void getArea() {
-        double area = radius * radius * Math.PI;
-        System.out.println("Total area of this circle is " + area);
+    protected double getArea() {
+        return (radius * radius) * Math.PI;
+    }
+
+    public String toString() {
+        return "Radius = " + radius + ", Colour = " + color;
     }
 }

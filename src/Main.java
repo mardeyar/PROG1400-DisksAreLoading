@@ -1,6 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        Circle myCirc = new Circle(2);
-        myCirc.getArea();
+        Circle circ1 = new Circle();
+        Circle circ2 = new Circle(2);
+        Circle circ3 = new Circle("Chartreuse", 13);
+
+        System.out.println();
     }
 }
